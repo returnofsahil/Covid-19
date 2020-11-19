@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 import sys 
 import mysql.connector as conn
 global df
-df=pd.read_csv("C:\\Users\\devag\\Downloads\\IP Classes XII 2020-21\\project Covid-19\\full_data.csv")
+df=pd.read_csv(r"C:\\Users\\devag\\Downloads\\full_data.csv")
 #function to display main menu
 
 def main_menu():
@@ -37,6 +37,6 @@ main_menu()
 
 def ReadCSV():
     print("Reading data from CSV file")
-    df=pd.read_csv("C:\users\devag\Downloads\raw_data16")
+    df=pd.read_csv(r"C:\users\devag\Downloads\raw_data16")
     print (df)
     
