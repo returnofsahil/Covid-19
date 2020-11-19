@@ -35,7 +35,7 @@ def main_menu():
   # def is used to create a function .Function is a piece of code that can be executed again
 
 # this function is used to create a csv file
-
+main_menu()
 
 def ReadCSV():
     print("Reading data from CSV file")
